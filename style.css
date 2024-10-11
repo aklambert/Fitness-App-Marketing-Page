@@ -1,11 +1,8 @@
-html, body {
+html,
+body {
   margin: 0;
   padding: 0;
   overflow-x: hidden;
-}
-.navbar-custom {
-  backdrop-filter: blur(7px);
-  width: 100vw;
 }
 
 #desk-health-full-logo {
@@ -34,30 +31,28 @@ html, body {
 }
 #standing-desk-image {
   opacity: 100%;
-  filter:brightness(30%);
+  filter: brightness(30%);
 }
 #home-motivational-sentence {
-position: absolute;
-z-index: 1;
-float: left;
-color:white;
-width: 40vw;
-margin-top: 15%;
-margin-left: 1%;
+  position: absolute;
+  z-index: 1;
+  color: white;
+  width: 40vw;
+  margin-top: 15%;
+  margin-left: 1%;
 }
 
 #sign-up-for-free-message {
   position: absolute;
   z-index: 1;
-  float: right;
-  color:white;
+  color: white;
   width: 50vw;
   margin-top: 15%;
   margin-left: 50%;
 }
 
 .btn-secondary {
-  background-color: #AAC658;
+  background-color: #aac658;
   position: absolute;
   z-index: 1;
   margin-top: 50%;
@@ -68,7 +63,7 @@ margin-left: 1%;
 }
 
 #home-section {
-  background-color: #37465D;
+  background-color: #37465d;
 }
 
 #home-signup {
@@ -143,8 +138,8 @@ p {
 
 #exercise-recommendations {
   background-color: #2c384b;
-  color:white;
-  border: 5px #AAC658 solid;
+  color: white;
+  border: 5px #aac658 solid;
   border-radius: 5%;
   padding: 2%;
 }
@@ -155,14 +150,14 @@ p {
 }
 
 .dark-li {
-  background-color:#dcdfe7;
+  background-color: #dcdfe7;
 }
 
 #emailSignupMessage {
   color: white;
 }
 
-.fixed-top{
+.fixed-top {
   margin-right: 1%;
 }
 
